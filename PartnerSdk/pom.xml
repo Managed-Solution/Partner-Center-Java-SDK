@@ -101,17 +101,17 @@
                         <target>1.6</target>
                     </configuration>
                 </plugin>
-				<!-- Add to local repo for other consumers -->
+                <!-- Add to local repo for other consumers -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-install-plugin</artifactId>
                     <version>2.5.1</version>
                     <configuration>
-                        <groupId>org.somegroup</groupId>
-                        <artifactId>someartifact</artifactId>
-                        <version>1.0</version>
+                        <groupId>com.microsoft.store</groupId>
+                        <artifactId>partnersdk</artifactId>
+                        <version>1.0.0</version>
                         <packaging>jar</packaging>
-                        <file>${basedir}/dependencies/someartifact-1.0.jar</file>
+                        <file>${basedir}/target/partnersdk-1.0.0.jar</file>
                         <generatePom>true</generatePom>
                     </configuration>
                     <executions>
