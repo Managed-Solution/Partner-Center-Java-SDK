@@ -17,11 +17,13 @@ public interface ISubscriptionUsageRecordCollection
 {
 	/***
 	 * Gets the subscription usage records grouped by resources.
+     * @return special collection
 	 */
     IResourceUsageRecordCollection getResources();
     
     /***
      * Gets the subscription usage records grouped by days.
+     * @return special collection
      */
     ISubscriptionDailyUsageRecordCollection getDaily();
 

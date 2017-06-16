@@ -23,5 +23,6 @@ public interface ISubscriptionDailyUsageRecordCollection
      * Retrieves the subscription's daily usage records.
      * @returns The subscription's daily usage records.
      */
+    @Override
     ResourceCollection<SubscriptionDailyUsageRecord> get();
 }

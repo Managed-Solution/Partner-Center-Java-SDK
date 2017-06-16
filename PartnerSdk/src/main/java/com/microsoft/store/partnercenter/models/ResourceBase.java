@@ -37,6 +37,7 @@ public abstract class ResourceBase
 
     /**
      * Gets the attributes.
+     * @return 
      */
     public ResourceAttributes getAttributes()
     {

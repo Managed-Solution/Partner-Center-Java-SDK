@@ -70,6 +70,7 @@ public class ResourceCollectionWithLinks<TResource, TLinks>
 
     /**
      * Gets the collection items.
+     * @return 
      */
     public Iterable<TResource> getItems()
     {
